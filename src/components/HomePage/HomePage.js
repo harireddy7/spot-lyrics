@@ -28,11 +28,13 @@ const HomePage = () => {
     <React.Fragment>
       <Search />
       {tracks && tracks.length === 0 ? (
-        <img
-          src={loadingImg}
-          alt="Loading Spinner"
-          className="img-fluid d-block mx-auto"
-        />
+        <div className="d-flex justify-content-center align-items-center h-50">
+          <img
+            src={loadingImg}
+            className="img-fluid mx-auto d-block"
+            alt="Loading Spinner"
+          />
+        </div>
       ) : (
         <div className="card">
           <div className="card-header bg-dark text-light text-center font-weight-bold">
