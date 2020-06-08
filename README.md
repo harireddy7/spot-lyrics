@@ -1,4 +1,4 @@
-# Spot-Yyrics
+# Spot-Lyrics
 
 ## A Lyrics Search React Application built with Musixmatch API
 
