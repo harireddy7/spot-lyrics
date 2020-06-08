@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 
 import DataProvider from './context/context';
 import HomePage from './components/HomePage/HomePage';
@@ -7,7 +7,7 @@ import Track from './components/track/Track';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <DataProvider>
         <div className="app-container">
           <header className="bg-dark mb-3 p-2 text-light text-center font-weight-bold">
@@ -25,7 +25,7 @@ const App = () => {
           </footer>
         </div>
       </DataProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
