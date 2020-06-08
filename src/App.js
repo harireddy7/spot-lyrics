@@ -16,7 +16,7 @@ const App = () => {
           <div className="container h-100">
             <Switch>
               <Route exact path="/" component={HomePage} />
-              <Route path="/lyrics/track/:id" component={Track} />
+              <Route exact path="/lyrics/track/:id" component={Track} />
               <Route path="*" component={() => <h2>404 page not found!</h2>} />
             </Switch>
           </div>
