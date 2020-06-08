@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spot-lyrics/static/css/main.c5ac3eec.chunk.css",
+    "main.js": "/spot-lyrics/static/js/main.498c9b48.chunk.js",
+    "main.js.map": "/spot-lyrics/static/js/main.498c9b48.chunk.js.map",
+    "runtime-main.js": "/spot-lyrics/static/js/runtime-main.0e2c2b1b.js",
+    "runtime-main.js.map": "/spot-lyrics/static/js/runtime-main.0e2c2b1b.js.map",
+    "static/js/2.360ad986.chunk.js": "/spot-lyrics/static/js/2.360ad986.chunk.js",
+    "static/js/2.360ad986.chunk.js.map": "/spot-lyrics/static/js/2.360ad986.chunk.js.map",
+    "index.html": "/spot-lyrics/index.html",
+    "precache-manifest.ab03910e7dafee1b5e595659f060b746.js": "/spot-lyrics/precache-manifest.ab03910e7dafee1b5e595659f060b746.js",
+    "service-worker.js": "/spot-lyrics/service-worker.js",
+    "static/css/main.c5ac3eec.chunk.css.map": "/spot-lyrics/static/css/main.c5ac3eec.chunk.css.map",
+    "static/js/2.360ad986.chunk.js.LICENSE.txt": "/spot-lyrics/static/js/2.360ad986.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e2c2b1b.js",
+    "static/js/2.360ad986.chunk.js",
+    "static/css/main.c5ac3eec.chunk.css",
+    "static/js/main.498c9b48.chunk.js"
+  ]
+}
